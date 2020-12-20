@@ -1,0 +1,14 @@
+body {
+    background: url("images/background.jpg") no-repeat;
+    background-position: center bottom;
+    background-size: 15%;
+    height: 500px;
+    border-top: 10px solid #ccc;
+}
+
+h4{
+    margin: 100px 50px;
+    padding: 20px 50px;
+    color: brown;
+    font-weight: bold;
+}

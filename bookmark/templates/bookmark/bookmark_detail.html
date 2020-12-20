@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} Detail {% endblock %}
+
+{% block content %}
+{{object.site_name}}<br/>
+{{object.url}}<br/>
+
+<a href="{% url 'bookmark:delete' bookmark.id %}">DELETE</a><br/>
+<a href="{% url 'bookmark:update' bookmark.id %}">MODIFY</a>
+{% endblock %}

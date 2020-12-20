@@ -1,0 +1,14 @@
+body {
+    background: white url("images/background.png") no-repeat;
+    background-position: right bottom;
+}
+ol {
+  text-align: center;
+    color: black;
+}
+ol a {
+    color: black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
